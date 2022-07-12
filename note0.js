@@ -17,6 +17,7 @@ clanName; //=> "Karbitus"
 commonName; //=> "Maris"
 fullName; //=> "Spinachius Karbitus Maris"
 ///////////////////////////////
+/*
 mixing data types
 const fact = "Spinach is "; // fact is of type `String`
 const tail = " years old"; // tail is of type `String`
@@ -89,3 +90,4 @@ The following returns false because the Unicode value of 8,
 // => false
 
 Stick to comparing numerical values with the relational operators and you'll be golden.
+*/
