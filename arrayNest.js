@@ -1,3 +1,4 @@
+/*
 const egregiouslyNestedArray = [
   "How",
   ["deep", ["can", ["we", ["go", ["?"], "Pretty"], "dang"], "deep,"], "it"],
@@ -70,3 +71,27 @@ copyOfCoolCities;
 
 //To add an element to the front of the new array, we simply type in the new element before spreading the elements in the original array:
 
+*/
+
+//. Create some other nested data structures and traverse over them with shallowIterator() and deepIterator(),
+const userInfo = {
+  firstName: "carmen",
+  lastName: "cojo",
+  company: {
+    name: "acme",
+  jobTile: "developer",
+  },
+}
+friends: [
+  {
+    name: "tom",
+    name: "kevin",
+  },
+],
+function shallowIterator(target) {
+  for (const key in target) {
+    console.log(target[key]);
+  }
+}
+
+shallowIterator(userInfo);

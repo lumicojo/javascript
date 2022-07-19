@@ -96,3 +96,18 @@ const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];// => ["Mon", "Tu
 days.splice(2, 3);// => ["Wed", "Thu", "Fri"]
 days;// => ["Mon", "Tue", "Sat", "Sun"]
 
+const person = {
+  name: ['Bob', 'Smith'],
+  age: 32,
+  bio: function() {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function() {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  }
+};
+person.name
+person.name[0]
+person.age
+person.bio()
+person.introduceSelf()

@@ -1,3 +1,15 @@
+function countDown(number) {
+  let i = number;
+  while (i >= 0) {
+      console.log(i);
+      i--;
+  }
+  return number;
+
+}  
+countDown(10) 
+
+    
 //This is infinite loop
 //while (true) {
 //  console.log("say this forever...");
