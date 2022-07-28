@@ -34,7 +34,7 @@ while (count < 3) {
 
 let count = 0; 
 while (count < 3) {
-  console.log(`I am the ${count}, I love to count!`); // The work the loop does
+  console.log(`I am the ${count}, I love to count!`); 
   count = count + 1; 
 }
 */
@@ -50,7 +50,8 @@ do {
   console.log(`I will execute once`);
 } while (false);
 
-//The do while loop will always ask them to enter their password
-// the first time, and can continue to ask as long as
-// (while) the value they enter doesn't meet the password requirements.
+
+do  {
+  console.log(`I will execute once`);
+} while (false);
 

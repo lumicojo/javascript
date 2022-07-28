@@ -1,98 +1,97 @@
-What Is a Data Type?
-Everything in JavaScript is data except:
+const name = "Susan";
+const height = 39;
+const message = `${name} is ${height} inches tall`;
 
-Operators: +, !, <=, etc.
-Reserved words: function, for, debugger, etc.
-Every piece of data falls into one of JavaScript's seven data types:
- numbers, strings, booleans, symbols, objects, null, and undefined.
- typeof == accepts one argument
+console.log({name, height, message});
 
- const js = {
-  name: "JavaScript",
-  createdBy: {
-    firstName: "Brendan",
-    lastName: "Eich",
-  },
-  firstReleased: 1995,
-  isAwesome: true,
-};
+ /*function sayHello() {
+console.log('Hello!');
+}
+sayHello();
+*/
+hi = "sayHello"
+function sayHelloToGuadalupe() {
+console.log("Hello, Guadalupe!");
+  }
+sayHelloToGuadalupe();  
 
-typeof {};
-//=> "object"
+function sayHelloToLiz() {
+    console.log("Hello, Liz!");
+  }
+sayHelloToLiz(); 
 
-const dogs = ["Byron", "Cubby", "Boo Radley", "Luca", "Spinach"];
-typeof dogs;
-//=> "object"
+function sayHelloToSamip() {
+    console.log("Hello, Samip!");
+  }
+sayHelloToSamip();
+sayHelloToGuadalupe();
+sayHelloToLiz();
+sayHelloToSamip();
 
-typeof null;
-//=> "object"
+function doSomething(thing) {
+    console.log(thing);
+  }
+  
+  doSomething("anything"); // passing the argument 'anything' into our function
 
-ypeof undefined;
-//=> "undefined"
+  function sayHelloTo(firstName) {
+    console.log(`Hello, ${firstName}!`);
+  }
+  
+  //console.log(firstName)  
+  function say(greeting, firstName) {
+    console.log(`${greeting}, ${firstName}!`);
+  }
+  say("Julio", "hello"); 
 
-let unassignedVariable;
-typeof unassignedVariable;
-//=> "undefined"
+  function say(greeting, firstName) {
+    console.log("firstName: ", firstName);
+    console.log("greeting: ", greeting);
+    console.log(`${greeting}, ${firstName}!`);
+}
+function add(x, y) {
+    return x + y;
+} 
+console.log(add(1,2));
+function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+}
+  console.log(say("Hello", "Liz"));
 
-unassignedVariable = "";
-typeof unassignedVariable;
-//=> "string"
+function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+    console.log(`${greeting}, ${firstName}!`);
+}  
+  function add(x, y) {
+   return x + y;
+}
+  console.log(add(1, 2));
+  function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+    console.log("I was called!");
+  }
+  console.log(say("Howdy", "partner"));
 
-Primitive Types
-Six of the seven JavaScript data types — everything except object — are primitive. All this means is that they represent single values, such as 7 or "hello" or false, instead of a collection of values.
+  function say(greeting, firstName) {
+    console.log("I was called!");
+    return `${greeting}, ${firstName}!`;
+  }
+  console.log();  
+   
+function sayHello(dogsName) {
+    console.log(`Hello, ${nameDog}`);
+}
+sayHelloTo("Sushi");
 
-Data Types Interact 3 - 2;
-//=> 1
-.and that strings can be added to other strings:
-
-"Hello" + ", " + `world!`;
-//=> "Hello, world!"
-
-"High " + 5 + "!";
-//=> "High 5!"
-
-null ** 2; // null to the power of 2
-//=> 0
-
-undefined ** null; // undefined to the power of null
-//=> 1
-
-{}+{}; // empty object plus empty object
-//=> "[object Object][object Object]" <-- That's a string!
-
-1 + 2 + 3 + 4 + 5;
-//=> 15
-
-"1" + 2 + 3 + 4 + 5;
-//=> "12345"
-
-1 + "2" + 3 + 4 + 5;
-//=> "12345"
-
-1 + 2 + "3" + 4 + 5;
-//=> "3345"
-
-1 + 2 + 3 + "4" + 5;
-//=> "645"
-
-1 + 2 + 3 + 4 + "5";
-//=> "105"
-
-
-1 + 2 + "3" + 4 + 5;
-//=> "3345"
-First, we add the numbers 1and 2 together to get 3 (a number).
- We then ask JavaScript to add 3 (a number) to "3" (a string).
-  JavaScript can't perform addition with a string, so it decides to concatenate
-   the two operands instead, resulting in "33" (a string). 
-   The next operation, "33" + 4, is also between a string and a number, and 
-   JavaScript once again concatenates, giving us the result of "334" (a string). 
-   In the final operation, we're adding "334" with 5 (a number). Again, JavaScript concatenates, giving the final result of "3345".
-
-   Interpolation
-   const barkCount = 3;
-const backtick = `Spinach barks ${barkCount} times`; //=> "Spinach barks 3 times"
-const singleQuote = 'Spinach barks ${barkCount} times'; //=> "Spinach barks ${barkCount} times"
-const doubleQuote = "Spinach barks ${barkCount} times"; //=> "Spinach barks ${barkCount} times"
-
-const spinach = `Spinach is ${2 + 3} years old`; //=> "Spinach is 5 years old"
+function add(a, b) {
+    return a + b;
+}
+console.log(add(1, 2));
+  
+function say(firstName, lastName){
+    console.log("Sushi", "Cojo");
+return `${firstName}, ${lastName}!`;
+}
+console.log();
+  
+  
