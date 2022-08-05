@@ -32,3 +32,23 @@ let isAdult = true;
 age >= 18 ? (isAdult = true) : (isAdult = false);
 console.assert(isAdult);
 */
+
+function doNothing() {}
+function sayHello() {
+    console.log("Hello!");
+}
+sayHello();
+
+function sayHelloToGuadalupe() {
+    console.log("Hello, Guadalupe!");
+}
+function sayHelloToLiz() {
+    console.log("Hello, Liz!");
+
+}
+function sayHelloToSamip() {
+    console.log("Hello, Samip");
+}
+sayHelloToGuadalupe(); 
+sayHelloToLiz();
+sayHelloToSamip();
