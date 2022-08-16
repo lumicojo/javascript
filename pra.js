@@ -68,24 +68,6 @@ function preserveDecimal(n) {
     return parseFloat(n)
 }
 /*
-basic math functions
-    ✓ 'add()' is a valid function
-    ✓ 'subtract()' is a valid function
-    ✓ 'multiply()' is a valid function
-    ✓ 'divide()' is a valid function
-    ✓ add(a, b) adds two numbers and returns the result
-    ✓ subtract(a, b) subtracts b from a and returns the result
-    ✓ multiply(a, b) multiplies two numbers and returns the result
-    ✓ divide(a, b) divides a by b and returns the result
-    ✓ increment(n) increments n and returns the result
-    ✓ decrement(n) decrements n and returns the result
 
-  makeInt(n)
-    ✓ parses n as an integer and returns the parsed integer
-    ✓ assumes base 10
-    ✓ returns NaN as appropriate
 
-  preserveDecimal(n)
-    ✓ preserves n's decimals (it parses n as a floating point number) and returns the parsed number
-    ✓ returns NaN as appropriate
-*/
+  

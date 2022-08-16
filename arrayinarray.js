@@ -18,36 +18,9 @@ letters[1][1][1][1];  //=> ["e"]
 letters[1][1][1][1][0];   //=> "e"
 */
 // Iterating over nested objects and arrays
-/*
-const userInfo = {
-  firstName: "Avi",
-  lastName: "Flombaum",
-  companyName: "Flatbook Labs",
-  jobTitle: "Developer Apprentice",
-  friend1firstName: "Nancy",
-  friend1lastName: "Burgess",
-  friend1companyName: "Flatbook Labs",
-  friend1jobTitle: "Developer Apprentice",
-  friend2firstName: "Corinna",
-  friend2lastName: "Jackson",
-  friend2companyName: "Flatbook Labs",
-  friend2jobTitle: "Senior Developer",
-  project1title: "Flatbook",
-  project1description:
-    "The premier Flatiron School-based social network in the world.",
-  project2title: "Scuber",
-  project2description:
-    "A burgeoning startup helping busy parents transport their children to and from all of their activities on scooters.",
-};
 
-function shallowIterator(target) {
-  for (const key in target) {
-    console.log(target[key]);
-  }
-}
 
-shallowIterator(userInfo);
-*/
+
 const primes = [2, 3, 5, 7, 11];
 
 shallowIterator(primes);

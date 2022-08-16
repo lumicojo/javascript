@@ -91,14 +91,7 @@ address["city"];//=> "New York"
 address["state"];//=> "NY"
 address["zipCode"];//=> "10004"
 
-Nonstandard Keys
 
-const wildKeys = {
-  "Cash rules everything around me.": "Wu",
-  "C.R.E.A.M.": "Tang",
-  "Get the money.": "For",
-  "$ $ bill, y'all!": "Ever",
-};
 
 //camelCaseEverything
 //Start the key with a lowercase letter

@@ -88,6 +88,7 @@ friends: [
     name: "kevin",
   },
 ],
+/*
 function shallowIterator(target) {
   for (const key in target) {
     console.log(target[key]);
@@ -95,3 +96,4 @@ function shallowIterator(target) {
 }
 
 shallowIterator(userInfo);
+*/
