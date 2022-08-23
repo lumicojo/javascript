@@ -18,10 +18,7 @@ const newMenu = [
 ];
 
 menu;
-// => ["Jalapeno Poppers", "Cheeseburger", "Fish and Chips", "French Fries", "Onion Rings"]
-
-newMenu;
-// => ["Jalapeno Poppers", "Veggie Burger", "House Salad", "Teriyaki Tofu", "French Fries", "Onion Rings"]
+console.log(newMenu);
 
 
 const food = [
@@ -37,5 +34,4 @@ const newFood = [
   ...food.slice(3),
 ];
 food;
-newFood;
-//you need console.log (food) to be able to see the print
+console.log(newFood);

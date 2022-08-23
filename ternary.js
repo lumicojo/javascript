@@ -82,3 +82,25 @@ const problem = 99;
 const luckyNumber = first > second ? (problem - 1) / 2 : problem / 3;
 luckyNumber; //=> ??? (Test it out yourself!)
 console.log(luckyNumber);
+
+function getFee(isMember) {
+  return (isMember ? '$2.00' : '$10.00');
+}
+console.log(getFee(true));
+console.log(getFee(false));
+console.log(getFee(null));
+
+
+/*let favoriteNumber = 32;
+if (favoriteNumber >= 10) { // evaluating favoriteNumber >= 10 returns true
+  favoriteNumber = favoriteNumber + 10
+} 
+console.log(favoriteNumber);
+favoriteNumber;
+*/
+let favoriteNumber = 0;
+while (favoriteNumber < 10) {
+  favoriteNumber = favoriteNumber + 1;
+}
+console.log(favoriteNumber);
+favoriteNumber;

@@ -57,3 +57,46 @@ function writeCards(name, birthday) {
 } 
 writeCards(["carmen", "tom"], "suprise");
 */
+
+function addNums(firstNumber, secondNumber) {
+  console.log(firstNumber + secondNumber)
+}
+
+addNums(1,2) // 3
+addNums(21,2) // 23
+addNums(221,22) // 243
+addNums(12,212) //224
+addNums(421,223) //644
+
+
+//This works becuase we are using the arguments
+function addNums(firstNumber, secondNumber) {
+  console.log(firstNumber + secondNumber)
+}
+
+addNums(1,2) // 3
+addNums(21,2) // 23
+addNums(221,22) // 243
+addNums(12,212) //224
+addNums(421,223) //644
+
+
+// DOES NOT WORK BECAUSE HARD CODING
+function notWorkingAddNums(firstNumber, secondNumber) {
+  console.log(1 + 2)
+}
+
+notWorkingAddNums(1,2) // 3
+notWorkingAddNums(21,2) // 23
+notWorkingAddNums(221,22) // 243
+notWorkingAddNums(12,212) //224
+notWorkingAddNums(421,223) //644
+
+
+function sayString(string){
+  console.log(string)
+}
+
+sayString("hello")
+sayString("bye")
+sayString("mogli")

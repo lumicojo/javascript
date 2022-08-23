@@ -13,10 +13,12 @@ console.log(isAdult);
 */
 //ternary Eexpression
 const age = 14;
-
 let isAdult;
-
 age >= 18 ? (isAdult = true) : (isAdult = false);
+isAdult;
 
-console.log(isAdult);
-
+/*const age = 6;
+const isAdult = age >= 18;
+isAdult;
+ false
+ */

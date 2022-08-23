@@ -1,44 +1,3 @@
-const cats = ["Milo", "Otis", "Garfield"];
-beforeEach(function() {
-    cats.length = 0;   
-    cats.push("Milo", "Otis", "Garfield");
-});
-function destructivelyAppendCat(name) {
-    cats.push(name)
-}
-function destructivelyPrependCat(name) {
-    cats.unshift(name)
-}
-function destructivelyRemoveLastCat() {
-    cats.pop()
-}
-function destructivelyRemoveFirstCat() {
-    cats.shift()
-}
-function appendCat(name) {
-    cats.push (name)
-}
-function appendCat(name) {
-   let newCats = cats.slice();
-   newCats.push(name)
-   return newCats
-}
-function prependCat(name) {
-    let newCats = cats.slice();
-    newCats.unshift(name)
-    return newCats
-}
-function removeLastCat() {
-    let newCats = cats.slice()
-    newCats.pop()
-    return newCats
-}
-function removeFirstCat() {
-    let newCats = cats.slice()
-    newCats.shift()
-    return newCats
-}
-///////////////////////////
 
 const cats = ["Milo", "Otis", "Garfield"];
 beforeEach(function () {
@@ -85,6 +44,27 @@ function removeFirstCat() {
     copyOfCats.shift(0);
     return copyOfCats
 }
-   
+/*
+Array functions
+      destructivelyAppendCat(name)
+        ✓ appends a cat to the end of the cats array
+      destructivelyPrependCat(name)
+        ✓ prepends a cat to the beginning of the cats array
+      destructivelyRemoveLastCat()
+        ✓ removes the last cat from the cats array
+      destructivelyRemoveFirstCat()
+        ✓ removes the first cat from the cats array
+      appendCat(name)
+        ✓ appends a cat to the cats array and returns a new array, leaving the cats array unchanged
+      prependCat(name)
+        ✓ prepends a cat to the cats array and returns a new array, leaving the cats array unchanged
+      removeLastCat()
+        ✓ removes the last cat in the cats array and returns a new array, leaving the cats array unchanged
+      removeFirstCat()
+        ✓ removes the first cat from the cats array and returns a new array, leaving the cats array unchanged
+
+
+  9 passing (251ms)
+  */   
 
      

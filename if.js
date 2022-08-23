@@ -48,3 +48,20 @@ console.log(isAdult);
 //the condition (age >= 18) resolves to true.
 // The code in the code block executes,
 // setting the isAdult variable to true
+
+let lateToWork = true;
+let oppositeValue = !lateToWork;
+
+console.log(oppositeValue);
+
+const size = 10;
+
+if (size > 100) {
+  console.log('Big');
+} else if (size > 20) {
+  console.log('Medium');
+} else if (size > 4) {
+  console.log('Small');
+} else {
+  console.log('Tiny');
+}
