@@ -28,37 +28,17 @@ console.log(foodChoice);
 
 
 
-// Input values: we could easily imagine asking a user for these values.
+
 //const name = "Your name here";
 //const probabilityOfRain = 0.2;
 //const temperatureInC = 26;
 
-// Create our message
 //const message = `Hello, ${name}, with a rain chance of ${probabilityOfRain * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (probabilityOfRain > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
 //`${temperatureInC >= 26 ? ' and watch out for heatstroke.' : ' and bask in this fine weather.'}`;
 //console.log(message);
 
 
 
-/*
-const name = "Spinach the Shiba";
-const probabilityOfRain = 0.2;
-const temperatureInC = 26;
-
-const likelyToRain = probabilityOfRain > 0.3;
-const sunIsDangerous = temperatureInC >= 26;
-const rainPercentage = probabilityOfRain * 100;
-
-const message = `Hello, ${name}, with a rain chance of ${rainPercentage}% and a temperature of ${temperatureInC}C we recommend that you ` +
-  (likelyToRain ? "take an umbrella" : "enjoy this rain-free day") +
-  `${
-    sunIsDangerous
-      ? " and watch out for heatstroke!"
-      : " and bask in this fine weather."
-  }`;
-
-console.log(message);
-*/
 
 //refactor the code
 const name = "Spinach the Shiba";
@@ -80,7 +60,7 @@ const first = 2;
 const second = 1;
 const problem = 99;
 const luckyNumber = first > second ? (problem - 1) / 2 : problem / 3;
-luckyNumber; //=> ??? (Test it out yourself!)
+luckyNumber; 
 console.log(luckyNumber);
 
 function getFee(isMember) {

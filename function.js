@@ -12,9 +12,9 @@ function rocketToMars() {
   }
   
   // Anonymous function
-  const rocketToMars = function() {
-    return 'BOOM!';
-  }
+ // const rocketToMars = function() {
+   // return 'BOOM!';
+  //}
 ////////////
 
 //function expresion
@@ -55,7 +55,51 @@ const color = 'blue';
 function printColor() {
   console.log(color);
 }
+printColor(); 
 
-printColor(); // Prints: blue
-////////////////////////
-    
+//passing the argument
+function doSomething(thing) {
+  console.log(thing);
+}
+doSomething("anything");
+
+function say(greeting, firstName) {
+  console.log(`${greeting}, ${firstName}!`);
+}
+say("Goodbye", "Juilo");   
+
+function say(greeting, firstName) {
+  console.log("firstName: ", firstName);
+  console.log("greeting: ", greeting);
+  console.log(`${greeting}, ${firstName}!`);
+}
+
+//the return keyword
+function add(x, y) {
+  x + y;
+  return x+y;
+}
+console.log(add(1, 2));
+
+function logTwoValues(value1, value2) {
+  console.log(`The two value are ${value1}, ${value2}`);
+
+}
+say("value1", "value2");
+
+
+function logTwoValues(value1, value2) {
+  console.log("value1", value1);
+  console.log("value2", value2);
+  console.log(`The two value are ${value1}, ${value2}`);
+  
+}
+
+function sayHello(firstName) {
+  console.log(`Hello, ${firstName}!`);
+}
+function sayHelloTo(firstName = "User") {//default value(user)
+  console.log(`Hello, ${firstName}!`);
+}
+
+

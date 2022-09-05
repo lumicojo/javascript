@@ -44,27 +44,3 @@ function removeFirstCat() {
     copyOfCats.shift(0);
     return copyOfCats
 }
-/*
-Array functions
-      destructivelyAppendCat(name)
-        ✓ appends a cat to the end of the cats array
-      destructivelyPrependCat(name)
-        ✓ prepends a cat to the beginning of the cats array
-      destructivelyRemoveLastCat()
-        ✓ removes the last cat from the cats array
-      destructivelyRemoveFirstCat()
-        ✓ removes the first cat from the cats array
-      appendCat(name)
-        ✓ appends a cat to the cats array and returns a new array, leaving the cats array unchanged
-      prependCat(name)
-        ✓ prepends a cat to the cats array and returns a new array, leaving the cats array unchanged
-      removeLastCat()
-        ✓ removes the last cat in the cats array and returns a new array, leaving the cats array unchanged
-      removeFirstCat()
-        ✓ removes the first cat from the cats array and returns a new array, leaving the cats array unchanged
-
-
-  9 passing (251ms)
-  */   
-
-     
