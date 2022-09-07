@@ -98,8 +98,13 @@ function logTwoValues(value1, value2) {
 function sayHello(firstName) {
   console.log(`Hello, ${firstName}!`);
 }
+
+///DEFAULT  VALUE 
 function sayHelloTo(firstName = "User") {//default value(user)
   console.log(`Hello, ${firstName}!`);
 }
 
-
+///DEFAULT  VALUE (JavaScript)
+function introductionWithLanguageOptional(name, language = "JavaScript") {
+  return `Hi, my name is ${name} and I am learning to program in ${language}.`
+}

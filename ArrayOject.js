@@ -123,27 +123,18 @@ const meals = {
 };
 
 meals;
-//=> { breakfast: "French toast", lunch: "Personal pizza", dinner: "Fish and chips" }
-//////
 
 ////// with out braket
-   //////each key as a literal identifier instead of a variable
 
-
-const morningMeal = "breakfast";
-const middayMeal = "lunch";
-const eveningMeal = "dinner";
-
-const meals = {
+/*const meals = {
   morningMeal: "French toast",
   middayMeal: "Personal pizza",
   eveningMeal: "Fish and chips",
 };
-
+*/
 meals;
-//=> { morningMeal: "French toast", middayMeal: "Personal pizza", eveningMeal: "Fish and chips" }
 
-    Object.keys()value is an Array contain all the key
+   // Object.keys()value is an Array contain all the key
 
 const wednesdayMenu = {
   cheesePlate: {
