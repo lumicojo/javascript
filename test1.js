@@ -187,3 +187,48 @@ console.log(‘hello’);
 36 Any time an event listener is triggered, a JavaScript object containing a bunch of information about the event is automatically passed as an argument to the callback function.
        True     
 */
+
+
+
+/*     pre test 
+1 I want to create a new list of my favorite jokes called joke-list. How would I create this file?
+    touch joke-list
+
+2 What does CLI stand for?
+    Command Line Interface 
+
+3 When you declare a variable using let, you need to assign its value at the same time.
+  false  
+  
+4 Which of these correctly follows JavaScript variable naming conventions?
+  cityOfBirth
+
+5 A String can be created by wrapping text with single or double quotes.
+   true
+
+6 Function is a data type in Javascript.
+  false
+
+7 The console.log in the following function will execute.
+
+function say(greeting, firstName) {
+  return `${greeting}, ${firstName}!`;
+  console.log('I was called!');
+}
+    false
+
+8 You can access an element in an array by using its index.
+  true
+
+9 Which of the following is an array?
+  [1,7,9,10]
+
+10 Which Array method would you use to add an element to the beginning of an array?
+   .unshift
+
+11 When  using for...in to iterate through the properties in an object, what value(s) are passed into the block in each iteration?
+   the key only
+
+12 Values in JavaScript objects can be of any data type, including other objects.
+   true
+   

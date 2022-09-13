@@ -45,7 +45,7 @@ for (let countup = 0; countup < 10; countup++) {
 
 
 
-/*
+
 
 function writeCards(name, birthday) {
   const birthdayMessage =[]  
@@ -56,7 +56,7 @@ function writeCards(name, birthday) {
   //debugger;
 } 
 writeCards(["carmen", "tom"], "suprise");
-*/
+
 
 function addNums(firstNumber, secondNumber) {
   console.log(firstNumber + secondNumber)
