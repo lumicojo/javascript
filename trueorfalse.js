@@ -1,3 +1,13 @@
+/*
+JavaScript includes four equality operators:
+
+strict equality operator (===)   true if data type match
+strict inequality operator (!==)  return true
+loose equality operator (==)  if two values are equal: true
+loose inequality operator (!=)  if two values are  not equal:true
+
+*/
+
 const firstName = "Spinachius";
 const clanName = "Karbitus";
 const commonName = "Maris";
@@ -76,16 +86,13 @@ The strict inequality operator returns true
 // => true
 You should prefer === and !== for comparisons.
 
-88 > "9";
-// => true
-88 >= "hello";
-// => false
+88 > "9";true
+88 >= 88 true
+88 >= "hello";false
 
-88 <= "hello";
-// => false
 
-The following returns false because the Unicode value of 8,
- the first character in 88, is less than the Unicode value of 9.
+88 <= "hello";false
+
  "88" > "9";
 // => false
 

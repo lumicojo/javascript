@@ -15,10 +15,10 @@ if (age >= 21) {
   canWork = true;
 }
 
-console.log(canWork);
-console.log(canEnlist);
-console.log(isAdult);
-console.log(canDrink);
+console.log(canWork);//true
+console.log(canEnlist);//true
+console.log(isAdult);//true
+console.log(canDrink);// udefined
 
 
 function testNum(a) {

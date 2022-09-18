@@ -43,11 +43,35 @@ if (age >= 18) {
   isAdult = true;
 }
 
-console.log(isAdult);
+console.log(isAdult); //true
 //age is initialized to 30, so 
 //the condition (age >= 18) resolves to true.
 // The code in the code block executes,
 // setting the isAdult variable to true
+
+//If the condition returns a falsy value, do nothing:
+/*
+const age = 14;
+
+let isAdult;
+
+if (age >= 18) {
+    isAdult = true;
+}
+
+isAdult;// => undefined
+
+Else 
+const age = 14;
+let isAdult;
+if (age >= 18) {
+  isAdult = true;
+} else {
+  isAdult= false;  // false
+}
+isAdult; // fase
+
+S
 
 let lateToWork = true;
 let oppositeValue = !lateToWork;
