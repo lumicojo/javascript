@@ -109,3 +109,54 @@ function introductionWithLanguageOptional(name, language = "JavaScript") {
   return `Hi, my name is ${name} and I am learning to program in ${language}.`
 }
 
+//console.log('Hello World');
+//let name = 'mosh'; // string
+//let interestRate = 1//number
+//let isApprove = false;
+//let firstName = undefined;
+//let selectedColor = null;
+
+        //Object
+//let name = 'Mosh';
+//let age = 30;
+//we have 2 propeties  key value pairs name and age
+let person = {  //object literal {}
+  name: 'Mosh',
+  age: 30
+};
+//console.log(person);
+   
+//Dot Notation    //change proprety
+person.name = 'John'
+//console.log(person.name);
+  ////  or
+// Bracket Notation  Array
+person['name'] = 'Mary';
+//console.log(person.name);
+let selectedColor = ['red', 'blue'];
+selectedColor[2] = 1; //dinamic
+//console.log(selectedColor.length);
+
+// 7- Function
+
+function greet(name) { //parameter for nme
+    console.log('Hello ' + name);
+}
+greet('John', 'Smith'); //John is argument for name parameter
+greet('Mary') // not defind
+
+
+//performing a task
+function greet(name, lastName) { //parameter for nme
+    console.log('Hello ' + name + ' ' + lastName);
+}
+greet('John', 'Smith');   
+
+/////  8- Types of Function
+
+// Calculating a value
+function square(number) {
+    return number *number;
+}
+//console.log(square(2)); //function call another function
+
