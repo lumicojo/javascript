@@ -53,7 +53,13 @@ console.log(course);// = {id: 1, name: 'a'}
 // });  
 // console.log(course); // = 0
 
-
+// const array1 = [5, 12, 8, 130, 44];
+// const found = array1.find(function(element) {
+//     return element > 10;
+// });    
+// console.log(found);
+//   // expected output: 12
+  
 
 
 
