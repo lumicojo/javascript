@@ -1,3 +1,4 @@
+
 //write a function in javascript that takes two arguments, name and age. 
 //return the sentence “i have dog named NAME and he is AGE years old”
 //call the function with mogli, 10 and sushi, 7
