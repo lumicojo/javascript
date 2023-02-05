@@ -7,3 +7,7 @@ multi-line
 JavaScript
 comment.
 */
+// main.js
+alert('Hello, Student.');
+let name = 'Queequeg';
+console.log(name.length);
