@@ -1,28 +1,23 @@
-// declare a variable initialize to 0
-// let i = 0;
-// while (i <= 10) {
-//   console.log(i);
-//   i++ // this give 1 to 10
-// }
+// const circle = {
+//   radius: 1,
+//   draw() {
+//     console.log('draw');
+//   }
+// };
+// // this is for loop
+// for (let key in circle)
+//   //console.log(key);     = radius , draw
+//   console.log(key, circle[key]);
+// // value of radius is 1 and  draw is a function
 
 
-// if you want to jump out of the loop
-// let i = 0;
-// while (i <= 10) {
-//   if (i === 5) break;
-//   console.log(i);
-//   i++  // you get 0,1,2,3,4
-// }
-
-
-// we want to see if i is a even number or not
-let i = 0;
-while (i <= 10) {
-  //if (i === 5) break;// u get out the loop
-  if (i % 2 === 0) { // if it is i want to continue
-    i++;
-    continue;// you go to next iteration
+// for of loop
+const circle = {
+  radius: 1,
+  draw() {
+    console.log('draw');
   }
-  console.log(i);
-  i++;
-} // = 1,3,5,7,9
+};
+
+for (let key of Object.keys(circle)
+  console.log(key);
